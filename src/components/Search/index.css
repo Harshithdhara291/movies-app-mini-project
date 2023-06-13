@@ -1,0 +1,124 @@
+.search-container {
+  background-color: #181818;
+  min-height: 100vh;
+}
+
+@media only screen and (min-width: 992px) {
+  .search-input-container {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+  }
+  .search-input {
+    height: 30px;
+    background-color: #131313;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+  }
+  .search-icon {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    background-color: rgb(77, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-section {
+    padding: 150px 60px 60px 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .no-result-search-section {
+    padding: 150px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-result-search-head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .mobile-header {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .desktop-header {
+    display: none;
+  }
+  .search-input-container {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+  }
+  .search-input {
+    height: 20px;
+    width: 100px;
+    background-color: #131313;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+  }
+  .search-icon {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+    background-color: rgb(77, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-section {
+    padding: 120px 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .no-result-search-section {
+    padding: 150px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-result-search-head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .no-result-image {
+    height: 150px;
+    width: 200px;
+  }
+}

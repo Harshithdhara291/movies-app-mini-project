@@ -1,0 +1,22 @@
+.poster-image {
+  height: 210px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px;
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .poster-image {
+    height: 155px;
+    width: 145px;
+    border-radius: 5px;
+    margin: 15px 15px 15px 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .poster-image {
+    height: 130px;
+    width: 115px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+}

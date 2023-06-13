@@ -1,0 +1,150 @@
+@media screen and (max-width: 991px) {
+  .logo-image {
+    background-color: #0c0b10;
+    position: absolute;
+    padding: 15px 0 0 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .logo-image {
+    position: absolute;
+    padding: 20px 0 0 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-image: url('https://res.cloudinary.com/di4qjlwyr/image/upload/v1686370237/netfilx_1_hjwhpp.png');
+    background-size: cover;
+  }
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0b10;
+  min-height: 100vh;
+}
+
+.login-head {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: left;
+  color: #ffffff;
+}
+@media screen and (max-width: 991px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 0 20px 0;
+    background: #0c0b10;
+    border-radius: 8px;
+    /* border: 1px solid #fff; */
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 350px;
+    flex-shrink: 0;
+    background: #0c0b10;
+    opacity: 0.8;
+    border-radius: 8px;
+    padding: 20px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'HK Grotesk';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .username-input-field {
+    font-size: 14px;
+    height: 40px;
+    color: #e2e8f0;
+    background: #333333;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .username-input-field {
+    font-size: 14px;
+    height: 40px;
+    color: #e2e8f0;
+    background: #333333;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+}
+
+.password-input-field {
+  font-size: 14px;
+  height: 40px;
+  background: #333333;
+  color: #e2e8f0;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.login-button {
+  font-family: 'HK Grotesk';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #e50914;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.error-message {
+  align-self: start;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dc2626;
+}

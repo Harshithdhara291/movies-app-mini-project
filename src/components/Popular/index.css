@@ -1,0 +1,49 @@
+.popular-container {
+  background-color: #181818;
+}
+.movie-poster {
+  list-style-type: none;
+}
+@media only screen and (min-width: 992px) {
+  .popular-section {
+    padding: 150px 60px 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .popular-section {
+    padding: 130px 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+}
+
+.each-image {
+  height: 190px;
+  width: 220px;
+  border-radius: 10px;
+  margin: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .each-image {
+    height: 60px;
+    width: 80px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+}
+
+.loader-container-popular {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  height: 100vh;
+}

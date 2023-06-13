@@ -1,0 +1,91 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #ffffff;
+}
+.home-container {
+  background-color: #181818;
+}
+.first-container {
+  background-color: aqua;
+}
+.movies-list-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  margin-left: 50px;
+  /* General/White */
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 991px) {
+  .movies-list-heading {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 31px;
+    margin-left: 20px;
+    /* General/White */
+
+    color: #ffffff;
+  }
+}
+
+.second-container {
+  padding: 40px;
+}
+@media only screen and (max-width: 991px) {
+  .second-container {
+    padding: 40px;
+  }
+}
+
+.failure-view-slider {
+  display: flex;
+  /* height: 200px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  padding: 80px;
+}
+@media only screen and (max-width: 991px) {
+  .failure-view-slider {
+    display: flex;
+    /* height: 200px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 43px;
+  }
+  .failure-view-head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    text-align: center;
+  }
+}
+.loader-container-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  padding: 100px;
+}

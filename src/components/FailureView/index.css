@@ -1,0 +1,34 @@
+.failure-view {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #0d0d0d;
+    color: #ffffff;
+  }
+}
+
+.try-again-button {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  padding: 5px;
+  cursor: pointer;
+}

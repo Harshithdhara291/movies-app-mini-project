@@ -1,0 +1,28 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #ffffff;
+}
+.trending-now-section {
+  padding: 0 68px 0 68px;
+}
+@media only screen and (max-width: 991px) {
+  .trending-now-section {
+    padding: 0 10px 0 10px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 93px;
+  background-color: #0d0d0d;
+}
+
+.movies-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 0;
+}

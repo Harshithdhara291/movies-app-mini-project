@@ -1,0 +1,284 @@
+.movies-item-details {
+  background-color: #181818;
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 1023px) {
+  .first-container-mid-mobile {
+    background-color: #181818;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10000px rgba(1, 1, 1, 100) inset;
+    background-size: cover;
+  }
+  .first-container-mid-desktop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .first-container-mid-mobile {
+    display: none;
+  }
+  .first-container-mid-desktop {
+    background-color: #181818;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10000px rgba(1, 1, 1, 100) inset;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  .movie-overview-cont {
+    overflow: scroll;
+    height: 110px;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .movie-overview-cont {
+    overflow: scroll;
+    height: 30%;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .movie-data-container {
+    margin-top: 100px;
+    padding: 10px 0 15px 15px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid #000000;
+    border-radius: 10px;
+  }
+
+  .movie-overview {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .movie-data-container {
+    margin-top: 100px;
+    padding: 10px 10px 30px 30px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 3px solid #000000;
+    border-radius: 10px;
+  }
+  .movie-overview {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #ffffff;
+  }
+}
+.movie-other-details {
+  display: flex;
+}
+.other-details-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  margin-right: 20px;
+  color: #ffffff;
+}
+.other-details-para-uua {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  margin-right: 20px;
+  color: #ffffff;
+  border: 1px solid #fff;
+  padding: 3px;
+}
+@media only screen and (min-width: 992px) {
+  .second-container-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  .second-sub-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50vw;
+  }
+  .similar-movies-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .similar-movies-head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 7rem;
+  }
+
+  .similar-movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .similar-movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 30px;
+  }
+  .second-container-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /* border: 1px solid red; */
+  }
+  .second-sub-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* border: 1px solid red; */
+  }
+  .genres {
+    padding: 10px;
+    margin-top: 0;
+  }
+  .similar-movies-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .similar-movies-head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #ffffff;
+  }
+
+  .similar-movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .second-container-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-evenly;
+    padding: 50px;
+  }
+  .second-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .genres {
+    padding: 10px;
+    height: 100%;
+    text-align: left;
+    margin-top: 0;
+  }
+  .similar-movies-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .similar-movies-head {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #ffffff;
+  }
+
+  .similar-movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+
+.second-container-headings {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #94a3b8;
+}
+
+.second-container-paras {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.loader-container-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  height: 100vh;
+}
+.footer-container {
+  background-color: #181818;
+}
