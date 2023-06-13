@@ -3,6 +3,9 @@
   position: relative;
   width: 100%;
 }
+.genres {
+  margin-top: 0;
+}
 @media only screen and (max-width: 1023px) {
   .first-container-mid-mobile {
     background-color: #181818;
@@ -143,6 +146,7 @@
     font-size: 24px;
     color: #ffffff;
     margin-left: 7rem;
+    background: none;
   }
 
   .similar-movies {
@@ -196,7 +200,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-
+    background: none;
     color: #ffffff;
   }
 
@@ -241,7 +245,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-
+    background: none;
     color: #ffffff;
   }
 
@@ -260,7 +264,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-
+  background: none;
   color: #94a3b8;
 }
 
@@ -270,6 +274,11 @@
   font-weight: 400;
   font-size: 16px;
   color: #ffffff;
+}
+.audio-para {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
 }
 
 .loader-container-mid {

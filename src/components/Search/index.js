@@ -112,7 +112,7 @@ class Search extends Component {
             </div>
             <div className="nav-items">
               <li className="nav-menu-item">
-                <Link to="/search" className="nav-link">
+                <Link to="/search" className="nav-link-search">
                   <div className="search-input-container">
                     <input
                       type="search"

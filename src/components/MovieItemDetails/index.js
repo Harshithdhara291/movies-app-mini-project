@@ -166,7 +166,7 @@ class MovieItemDetails extends Component {
         <div className="second-container-mid">
           <div className="second-sub-container">
             <ul className="genres">
-              <h1 className="second-container-headings">genres</h1>
+              <h1 className="second-container-headings">Genres</h1>
               {genres.map(genre => (
                 <li key={genre.id} style={{listStyleType: 'none'}}>
                   <p className="second-container-paras">{genre.name}</p>
@@ -175,9 +175,9 @@ class MovieItemDetails extends Component {
             </ul>
             <div>
               <h1 className="second-container-headings">Audio Available</h1>
-              <ul>
+              <ul className="audio-para">
                 {audios.map(audio => (
-                  <li key={audio.id} style={{listStyleType: 'none'}}>
+                  <li key={audio.id}>
                     <p className="second-container-paras">
                       {audio.english_name}
                     </p>

@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Cookies from 'js-cookie'
 import Header from '../Header'
 import Footer from '../Footer'
+import TopRatedSection from '../TopRated'
 import TrendingNowSection from '../TrendingNow'
 import Originals from '../OriginalsSection'
 import LoadingView from '../Loading'
@@ -130,6 +131,10 @@ class Home extends Component {
           {this.renderViewType()}
         </div>
         <div className="second-container-home">
+          <div>
+            <h1 className="movies-list-heading">Top Rated</h1>
+            <TopRatedSection />
+          </div>
           <div>
             <h1 className="movies-list-heading">Trending Now</h1>
             <TrendingNowSection />

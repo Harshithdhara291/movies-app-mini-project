@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import {Component} from 'react'
 import {Link, withRouter} from 'react-router-dom'
 import {HiOutlineSearch} from 'react-icons/hi'
@@ -39,11 +38,7 @@ class Header extends Component {
             </Link>
           </ul>
           <ul className="nav-items">
-            <button
-              type="button"
-              className="nav-menu-item"
-              testid="searchButton"
-            >
+            <button type="button" className="nav-menu-item">
               <Link to="/search" className="nav-link">
                 <HiOutlineSearch style={{fontSize: '25px'}} />
               </Link>

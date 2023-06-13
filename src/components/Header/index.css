@@ -59,9 +59,12 @@
   .nav-link {
     display: flex;
     align-items: center;
-    text-decoration: none;
     color: #ffffff;
     text-decoration: none;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  .nav-link:hover {
+    transform: scale(1.2);
   }
 }
 
