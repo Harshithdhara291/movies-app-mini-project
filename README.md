@@ -1,6 +1,6 @@
 In this project, I have built **Movies App** by applying the concepts I have learned.
 
-Movies app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
+**Movies app** will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
 
 The following functionalities I have implemented in this App :
 
